@@ -19,8 +19,8 @@ The file should have the following content:
  
  ```
 export const environment = {
- production: false,
- hatGptApiKey: 'YOUR_API_KEY_HERE',
+  production: false,
+  chatGptApiKey: 'YOUR_API_KEY_HERE',
 };
 ```
 Get your API Key from https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key
@@ -30,7 +30,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pull the repository, do `npm install`, and then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ### Code scaffolding
 
