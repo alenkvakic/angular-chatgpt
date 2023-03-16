@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.header-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.donate-link {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.donate-link:hover {
+  background-color: #c0392b;
+}
+
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style the scrollbar for Chrome, Safari, and Edge */
+.messages::-webkit-scrollbar {
+  width: 6px;
+  background-color: #2c2c2c;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #6a6a6a;
+  border-radius: 3px;
+}
+
+/* Style the scrollbar for Firefox */
+.messages {
+  scrollbar-width: thin;
+  scrollbar-color: #6a6a6a #2c2c2c;
+  scroll-behavior: smooth;
+}
