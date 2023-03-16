@@ -1,7 +1,9 @@
 # Angular ChatGPT
 Angular ChatGPT is a simple and easy-to-use starting point for Angular developers who want to interact with the OpenAI ChatGPT API. This app provides a convenient way to experiment with the API without having to implement it from scratch.
 
-![Angular ChatGPT](https://user-images.githubusercontent.com/20193574/225767028-f275589a-d222-4873-a64b-a96af84cf69e.jpg)
+Feel free to use this app as a starting point for your own projects, and customize it according to your requirements. Happy coding!
+
+![image](https://user-images.githubusercontent.com/20193574/225767841-5cae6e9d-30d5-44a2-a162-32324bfb49d8.png)
 
 ## Motivation
 The main purpose of creating this app is to provide a foundation for Angular developers to build upon when working with the ChatGPT API. Implementing an API can be time-consuming, and there are not many repositories available that suit this specific use case. With this app, developers can begin testing and integrating the API into their projects right away.
@@ -41,5 +43,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ### Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-Feel free to use this app as a starting point for your own projects, and customize it according to your requirements. Happy coding!
