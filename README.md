@@ -1,7 +1,7 @@
 # Angular ChatGPT
 Angular ChatGPT is a simple and easy-to-use starting point for Angular developers who want to interact with the OpenAI ChatGPT API. This app provides a convenient way to experiment with the API without having to implement it from scratch.
 
-This app preserves the context of the chat, so you don't have to implement that. Additionaly I added types/interfaces for type safety when working with the response.
+This app is written in Angular 15.2 with routing enabled. It preserves the context of the OpenAI chat, so you don't have to implement that. Additionaly I added types/interfaces for type safety when working with the response.
 
 **Feel free to use this app as a starting point for your own projects, and customize it according to your requirements. Happy coding!**
 
